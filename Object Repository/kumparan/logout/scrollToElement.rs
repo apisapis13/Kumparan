@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>scrollToElement</name>
+   <tag></tag>
+   <elementGuidId>3c163e02-870d-4457-8934-841839d83956</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//label[@data-qa-id='btn-find-facebook']/div[2]/div/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//label[@data-qa-id='btn-find-facebook']/div[2]/div/div/div</value>
+   </webElementProperties>
+</WebElementEntity>

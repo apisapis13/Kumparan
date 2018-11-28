@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+ScenarioAwal,Chrome 70.0.3538.102,,2018-11-22 16:41:00,2018-11-22 16:42:00,1m - 0.197s,FAILED
+,,,,,,
+Test Cases/Test Case,Chrome 70.0.3538.102,,2018-11-22 16:41:01,2018-11-22 16:41:59,58.737s,FAILED
+openBrowser,Chrome 70.0.3538.102,Open Browser,2018-11-22 16:41:01,2018-11-22 16:41:22,20.553s,PASSED
+waitForPageLoad,Chrome 70.0.3538.102,,2018-11-22 16:41:22,2018-11-22 16:41:22,0.132s,PASSED
+maximizeWindow,Chrome 70.0.3538.102,,2018-11-22 16:41:22,2018-11-22 16:41:23,1.199s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-22 16:41:23,2018-11-22 16:41:26,3.049s,PASSED
+Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(kumparan/dismisspopUP))),Chrome 70.0.3538.102,Dismiss Popup,2018-11-22 16:41:26,2018-11-22 16:41:29,3.312s,PASSED
+click,Chrome 70.0.3538.102,Login Using Facebook,2018-11-22 16:41:29,2018-11-22 16:41:30,0.185s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-22 16:41:30,2018-11-22 16:41:30,0.274s,PASSED
+switchToWindowIndex,Chrome 70.0.3538.102,,2018-11-22 16:41:30,2018-11-22 16:41:30,0.053s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-22 16:41:30,2018-11-22 16:41:59,29.386s,FAILED

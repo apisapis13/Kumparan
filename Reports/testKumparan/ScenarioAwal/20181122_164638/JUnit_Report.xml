@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ScenarioAwal" time="75" tests="1" failures="0" errors="0">
+   <testsuite name="ScenarioAwal" tests="1" failures="0" errors="0" time="75" timestamp="2018-11-22 16:46:40" hostname="MMDC - 10.200.33.220" id="Test Suites/testKumparan/ScenarioAwal">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\MMDC\\Katalon Studio\\Kumparan\\Reports\\testKumparan\\ScenarioAwal\\20181122_164638"/>
+         <property name="logFiles" value="C:\\Users\\MMDC\\Katalon Studio\\Kumparan\\Reports\\testKumparan\\ScenarioAwal\\20181122_164638\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="MMDC - 10.200.33.220"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.6.1"/>
+         <property name="browser" value="Chrome 70.0.3538.102"/>
+         <property name="hostAddress" value="10.200.33.220"/>
+         <property name="sessionId" value="a1b22ac412d4c93c764809b212bd62f6"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Test Case" classname="Test Cases/Test Case" status="PASSED">
+         <system-out><![CDATA[2018-11-22 16:46:40 - [TEST_CASE][PASSED] - Test Cases/Test Case: Test Cases/Test Case
+
+2018-11-22 16:46:41 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'www.kumparan.com'
+
+2018-11-22 16:46:57 - [MESSAGE][PASSED] - Browser is opened with url: 'www.kumparan.com'
+
+2018-11-22 16:46:57 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-11-22 16:46:58 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-11-22 16:46:58 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-11-22 16:46:59 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-22 16:46:59 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-22 16:47:02 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-22 16:47:02 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(kumparan/dismisspopUP))): Delayed 3 second(s)
+
+2018-11-22 16:47:02 - [MESSAGE][PASSED] - Object 'Object Repository/kumparan/dismisspopUP' is visible
+
+2018-11-22 16:47:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/kumparan/dismisspopUP' is clicked on
+
+2018-11-22 16:47:02 - [MESSAGE][PASSED] - Object: 'Object Repository/kumparan/dismisspopUP' is clicked on
+
+2018-11-22 16:47:02 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-22 16:47:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-22 16:47:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/kumparan/btnProfile' is clicked on
+
+2018-11-22 16:47:05 - [MESSAGE][PASSED] - Object: 'Object Repository/kumparan/btnProfile' is clicked on
+
+2018-11-22 16:47:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/kumparan/btnFB' is clicked on
+
+2018-11-22 16:47:06 - [MESSAGE][PASSED] - Object: 'Object Repository/kumparan/btnFB' is clicked on
+
+2018-11-22 16:47:06 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '2'
+
+2018-11-22 16:47:06 - [MESSAGE][PASSED] - Switched to window with index: '2'
+
+2018-11-22 16:47:06 - [TEST_STEP][PASSED] - setText: Text 'apis_aditya@yahoo.com' is set on object 'Object Repository/kumparan/facebook/InputEmail'
+
+2018-11-22 16:47:09 - [MESSAGE][PASSED] - Text 'apis_aditya@yahoo.com' is set on object 'Object Repository/kumparan/facebook/InputEmail'
+
+2018-11-22 16:47:09 - [TEST_STEP][PASSED] - setText: Text '130493' is set on object 'Object Repository/kumparan/facebook/InputPass'
+
+2018-11-22 16:47:09 - [MESSAGE][PASSED] - Text '130493' is set on object 'Object Repository/kumparan/facebook/InputPass'
+
+2018-11-22 16:47:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/kumparan/facebook/btnLogin' is clicked on
+
+2018-11-22 16:47:10 - [MESSAGE][PASSED] - Object: 'Object Repository/kumparan/facebook/btnLogin' is clicked on
+
+2018-11-22 16:47:10 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-22 16:47:13 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-22 16:47:13 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '0'
+
+2018-11-22 16:47:13 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2018-11-22 16:47:13 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/kumparan/gravatarIcon' is present
+
+2018-11-22 16:47:13 - [MESSAGE][PASSED] - Object 'Object Repository/kumparan/gravatarIcon' is present
+
+2018-11-22 16:47:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/kumparan/logout/logout_1' is clicked on
+
+2018-11-22 16:47:14 - [MESSAGE][PASSED] - Object: 'Object Repository/kumparan/logout/logout_1' is clicked on
+
+2018-11-22 16:47:14 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-22 16:47:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-22 16:47:17 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/kumparan/logout/scrollToElement' successfully
+
+2018-11-22 16:47:17 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/kumparan/logout/scrollToElement' successfully
+
+2018-11-22 16:47:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/kumparan/logout/btnLogout' is clicked on
+
+2018-11-22 16:47:17 - [MESSAGE][PASSED] - Object: 'Object Repository/kumparan/logout/btnLogout' is clicked on
+
+2018-11-22 16:47:17 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://www.kumparan.com' successfully
+
+2018-11-22 16:47:24 - [MESSAGE][PASSED] - Navigate to 'http://www.kumparan.com' successfully
+
+2018-11-22 16:47:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/kumparan/btnProfile' is clicked on
+
+2018-11-22 16:47:25 - [MESSAGE][PASSED] - Object: 'Object Repository/kumparan/btnProfile' is clicked on
+
+2018-11-22 16:47:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/kumparan/btnGoogle' is clicked on
+
+2018-11-22 16:47:25 - [MESSAGE][PASSED] - Object: 'Object Repository/kumparan/btnGoogle' is clicked on
+
+2018-11-22 16:47:25 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '2'
+
+2018-11-22 16:47:25 - [MESSAGE][PASSED] - Switched to window with index: '2'
+
+2018-11-22 16:47:25 - [TEST_STEP][PASSED] - setText: Text 'aditya.hafizh@mataharimall.com' is set on object 'Object Repository/kumparan/google/InputEmail'
+
+2018-11-22 16:47:29 - [MESSAGE][PASSED] - Text 'aditya.hafizh@mataharimall.com' is set on object 'Object Repository/kumparan/google/InputEmail'
+
+2018-11-22 16:47:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/kumparan/google/btnNextEmail' is clicked on
+
+2018-11-22 16:47:29 - [MESSAGE][PASSED] - Object: 'Object Repository/kumparan/google/btnNextEmail' is clicked on
+
+2018-11-22 16:47:29 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-22 16:47:32 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-22 16:47:32 - [TEST_STEP][PASSED] - setText: Text 'beli4j4444' is set on object 'Object Repository/kumparan/google/InputPass'
+
+2018-11-22 16:47:32 - [MESSAGE][PASSED] - Text 'beli4j4444' is set on object 'Object Repository/kumparan/google/InputPass'
+
+2018-11-22 16:47:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/kumparan/google/btnNextPass' is clicked on
+
+2018-11-22 16:47:33 - [MESSAGE][PASSED] - Object: 'Object Repository/kumparan/google/btnNextPass' is clicked on
+
+2018-11-22 16:47:33 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-22 16:47:36 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-22 16:47:36 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '0'
+
+2018-11-22 16:47:36 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2018-11-22 16:47:36 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/kumparan/gravatarIcon' is present
+
+2018-11-22 16:47:39 - [MESSAGE][PASSED] - Object 'Object Repository/kumparan/gravatarIcon' is present
+
+2018-11-22 16:47:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/kumparan/news/btnNews' is clicked on
+
+2018-11-22 16:47:40 - [MESSAGE][PASSED] - Object: 'Object Repository/kumparan/news/btnNews' is clicked on
+
+2018-11-22 16:47:40 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-22 16:47:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-22 16:47:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/kumparan/news/hitNews' is clicked on
+
+2018-11-22 16:47:43 - [MESSAGE][PASSED] - Object: 'Object Repository/kumparan/news/hitNews' is clicked on
+
+2018-11-22 16:47:43 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-11-22 16:47:48 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-11-22 16:47:48 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/kumparan/news/scrollToText' successfully
+
+2018-11-22 16:47:48 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/kumparan/news/scrollToText' successfully
+
+2018-11-22 16:47:48 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/kumparan/news/putComment' is visible
+
+2018-11-22 16:47:48 - [MESSAGE][PASSED] - Object 'Object Repository/kumparan/news/putComment' is visible
+
+2018-11-22 16:47:48 - [TEST_STEP][PASSED] - setText: Text ' testistastus' is set on object 'Object Repository/kumparan/news/putComment'
+
+2018-11-22 16:47:49 - [MESSAGE][PASSED] - Text ' testistastus' is set on object 'Object Repository/kumparan/news/putComment'
+
+2018-11-22 16:47:49 - [TEST_STEP][PASSED] - verifyElementClickable: Object 'Object Repository/kumparan/news/btnComment' is clickable
+
+2018-11-22 16:47:49 - [MESSAGE][PASSED] - Object 'Object Repository/kumparan/news/btnComment' is clickable
+
+2018-11-22 16:47:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/kumparan/news/btnComment' is clicked on
+
+2018-11-22 16:47:49 - [MESSAGE][PASSED] - Object: 'Object Repository/kumparan/news/btnComment' is clicked on
+
+2018-11-22 16:47:49 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-11-22 16:47:54 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-11-22 16:47:54 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-11-22 16:47:55 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-22 16:46:40 - [TEST_SUITE][PASSED] - ScenarioAwal: Test Cases/Test Case]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

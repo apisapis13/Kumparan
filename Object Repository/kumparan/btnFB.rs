@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btnFB</name>
+   <tag></tag>
+   <elementGuidId>606a5278-7b1f-40c9-9243-d021febcc4d9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;content&quot;]/div/div/div[1]/div[2]/div[2]/div/div/div/div[2]/div[3]/div[1]/button</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <value>//*[@id=&quot;content&quot;]/div/div/div[1]/div[2]/div[2]/div/div/div/div[2]/div[3]/div[1]/button</value>
+   </webElementXpaths>
+</WebElementEntity>
